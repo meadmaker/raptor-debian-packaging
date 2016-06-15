@@ -1,0 +1,15 @@
+Source: raptor-ica
+Section: unknown
+Priority: optional
+Maintainer: Painless Security <build@painless-security.com>
+Build-Depends: debhelper (>= 9), dh-systemd
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/raptor-ica.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/raptor-ica.git;a=summary
+
+Package: raptor-ica
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

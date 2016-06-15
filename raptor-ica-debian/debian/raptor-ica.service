@@ -1,0 +1,12 @@
+[Unit]
+Description=Raptor ICA
+After=syslog.target
+WorkingDirectory=/opt/raptor/ica/
+
+[Service]
+WorkingDirectory=/opt/raptor/ica/
+ExecStart=/usr/bin/java -DconfigurationFiles=/opt/raptor/ica/conf/ -server -Xmx64M -jar raptor-ica.jar
+
+[Install]
+WorkingDirectory=/opt/raptor/ica/
+WantedBy=multi-user.target

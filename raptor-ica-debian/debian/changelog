@@ -1,0 +1,11 @@
+raptor-ica (1.2.1-2) unstable; urgency=low
+
+  * Move to systemd
+
+ -- Painless Security <build@painless-security.com>  Wed, 15 Jun 2016 12:39:01 -0400
+
+raptor-ica (1.2.1-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Painless Security <build@painless-security.com>  Wed, 15 Jun 2016 12:39:01 -0400

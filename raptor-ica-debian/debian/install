@@ -1,0 +1,4 @@
+conf/**         /opt/raptor/ica/conf/
+keys/**         /opt/raptor/ica/keys/
+lib/**	        /opt/raptor/ica/lib/
+raptor-ica.jar  /opt/raptor/ica/
